@@ -21,6 +21,7 @@ public class CountConnectedComponent {
         addEdge(graph, 4, 7);
         addEdge(graph, 6, 8);
         addEdge(graph, 7, 10);
+        addEdge(graph, 7, 8);
         addEdge(graph, 9, 10);
         System.out.println(countConnectedComponents(graph, x));
     }
